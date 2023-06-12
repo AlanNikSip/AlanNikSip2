@@ -1,0 +1,79 @@
+@charset "utf-8";
+/* CSS Document */
+
+p, ol, ul {
+	font-family: "Bahnschrift SemiBold", "Bahnschrift SemiCondensed", "Bahnschrift SemiLight Condensed", "Arial Rounded MT Bold";
+	font-size: 20px;
+	line-height: 20px;
+	width: 700px;
+	background-color: papayawhip;
+	padding: 25px
+}
+
+h1, h2 {
+	font-family: "Bahnschrift SemiBold", "Bahnschrift SemiCondensed", "Bahnschrift SemiLight Condensed", "Arial Rounded MT Bold";
+	color: darkslategray
+	}
+
+span {font-family: "AlanNikolicSipek"}
+
+body {
+	background-image: url("Multimedija/pozadina.jpg");
+	background-size: 100%
+	}
+
+a, {
+	color:darkslategray;
+	font-family: "Bahnschrift SemiBold", "Bahnschrift SemiCondensed", "Bahnschrift SemiLight Condensed", "Arial Rounded MT Bold";
+	padding: 10px;
+	line-height: 25px
+	}
+
+img {
+	height:350px
+	}
+
+video {
+	height:400px
+	}
+
+
+
+ol,ul {
+  list-style: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+text-align: center
+}
+h1 {
+  padding: 13px;
+}
+#horBar {
+  margin: 11px;
+  font-family: Serif;
+  width: 1000px;
+}
+
+#horBar li {
+  display: block;
+  width: 117px;
+  float: left;
+  margin-left: 4px;
+  border: 2px double rgb(82, 20, 20);
+}
+
+#horBar a {
+  color: #006;
+  background-color: gainsboro;
+  text-decoration: none;
+  padding: 4px;
+  display: block;
+}
+
+#horBar a:hover {
+  color: salmon;
+  background-color: tan;
+}
+	
+	
